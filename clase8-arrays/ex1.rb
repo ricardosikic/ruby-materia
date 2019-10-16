@@ -97,3 +97,15 @@ array_test = Array['t', 'a', 'i']
 puts array_test[-2]
 
 puts array_test.include? 'u'
+
+# para agregar un elemento al final del array
+# se utiliza el metodo .push('elemento')
+# para agregar al principio unshift()
+
+x = Array[0, 1, 2]
+x.push(3)
+x.unshift(-1)
+
+puts x
+
+# como ves son los mismos metodos utilizados con Js
