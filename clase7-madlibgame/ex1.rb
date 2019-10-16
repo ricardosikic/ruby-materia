@@ -1,3 +1,6 @@
+# Este famoso juego es sobre crear frases a traves de la informacion recogida
+# y almacenada en las variables
+
 puts 'ingresa un color'
 color_rosas = gets.chomp()
 
@@ -12,3 +15,4 @@ nombre_celebridad = gets.chomp()
 puts ('las rosas son ' + color_rosas)
 puts (nombre_flores + ' azules')
 puts ('te quiero ' + nombre_celebridad)
+

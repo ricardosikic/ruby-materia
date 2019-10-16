@@ -23,3 +23,8 @@ puts ('tu edad es ' + edad.to_s + ' años')
 puts 'donde vives?'
 ciudad = gets.chomp()
 puts('vives en ' + ciudad + ' ahora')
+
+
+puts 'dime tu comuna'
+comuna = gets.chomp()
+puts('vives en ' + comuna)
