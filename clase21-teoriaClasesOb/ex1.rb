@@ -1,3 +1,19 @@
+# las clases y objetos son fundamentales para entender la OOP, las diferencias son faciles de reconocer.
+# un objeto: se crea a partir de una clases, se dice que es una instancia de la clase.
+# una clase: define los atributos y comportamientos que tendran los objetos.
+# como se define una clase?, de la siguiente manera
+
+# class auto
+# end
+
+# ahora una clase definida puede tener atributos y metodos, que marcan el comportamiento del objeto.
+# a continuacion podemos ver como puedo definir una clase con atributos y metodos, ademas de como crear una
+# nueva instancia de la clase Persona.
+
+# attr_accesor significa que los atributos pueden ser leidos y escritos desde cualquier parte de la aplicacion
+# por lo tanto tienen que ver con la visibilidad.
+# attr_reader y attr_writer son otros.
+
 class Persona
     attr_accessor :nombre, :edad, :genero
 
