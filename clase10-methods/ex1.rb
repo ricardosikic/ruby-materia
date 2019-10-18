@@ -1,10 +1,10 @@
 # en esta clase numero 10 veremos metodos, que son 
 # y como se hacen en ruby.
-# los metodos basicamente son bloques de codigos
-# que podemos escribir y que realizan taks especificas.
+# los metodos basicamente son funciones que ejecutan bloques de codigos
+# que podemos escribir y que realizan tasks especificas.
 # lo bueno de los metodos es que puedes llamarlos desde otras partes de la app
 
-# la forma de escribir es un metodo es utilizando la palabra def
+# la forma de escribir  un metodo es utilizando la palabra def
 # def significa que estamos definiendo un metodo.
 # lo segundo es ponerle un nombre al metodo que defini(def)
 # al final del bloque debemos poner la palabra end.
