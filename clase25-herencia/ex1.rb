@@ -105,3 +105,7 @@ manager2.bono = 2
 # clase o subclase solo, con esto reducimos codigo y ademas encapsulamos el codigo.
 
 # por lo tanto hemos utilizado encapsulamiento y herencias.
+
+# la diferencia de protected y private es que protected puede ser accedido desde
+# un dentro de la clase y subclase a diferencia con private
+# que solo puede ser accedido desde la clase perono desde una subclase.
