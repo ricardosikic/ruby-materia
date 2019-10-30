@@ -153,7 +153,7 @@ b1.d
 
 module Numero_uno
     def saluda
-        return 'hola ' + @nombre
+        return 'hola tu nombre ' + @nombre
     end
 end
 
