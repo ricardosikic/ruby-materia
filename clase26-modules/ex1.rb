@@ -150,3 +150,23 @@ b1.d
 
 # output #<B:0x000000000508c438>, lo cual me indica que el metodo (en este caso el objeto)
 # pertenece a la clase B
+
+module Numero_uno
+    def saluda
+        return 'hola ' + @nombre
+    end
+end
+
+class Nombre
+    include Numero_uno
+
+    attr_accessor :nombre
+
+    def initialize(nombre)
+        @nombre = nombre
+    end
+
+end
+
+nombre1 = Nombre.new('ricardos')
+puts nombre1.saluda
